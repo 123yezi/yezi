@@ -78,5 +78,6 @@
   	<module>rongyao-jineng</module>
   	<module>rongyao-denglu</module>
   	<module>rongyao-webapp</module>
+  	<module>rongyao-shipin</module>
   </modules>
 </project>
