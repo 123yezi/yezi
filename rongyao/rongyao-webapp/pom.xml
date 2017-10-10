@@ -7,19 +7,14 @@
     <artifactId>rongyao</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>com.bdqn</groupId>
+
   <artifactId>rongyao-webapp</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+
   <packaging>war</packaging>
   <name>rongyao-webapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
+    
   </dependencies>
   <build>
     <finalName>rongyao-webapp</finalName>
