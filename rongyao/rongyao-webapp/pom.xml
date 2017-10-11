@@ -7,14 +7,19 @@
     <artifactId>rongyao</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-
+  
   <artifactId>rongyao-webapp</artifactId>
-
+ 
   <packaging>war</packaging>
   <name>rongyao-webapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
-    
+    <dependency>
+	    <groupId>javax.servlet</groupId>
+	    <artifactId>javax.servlet-api</artifactId>
+	    <version>3.1.0</version>
+	    <scope>provided</scope>
+	</dependency>
   </dependencies>
   <build>
     <finalName>rongyao-webapp</finalName>
